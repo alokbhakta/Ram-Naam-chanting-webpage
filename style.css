@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+}
+
+.outer{
+    display: flex;
+}
+
+.box{
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+    border-style: solid;
+    border-width: 5px;
+    background-color: skyblue;
+
+
+}
+.hanumanji{
+    position: absolute;
+    left: 30%;
+    height: 500px;
+    width: auto;
+    margin-top: 80px;
+
+
+}
+.land{
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+}
+.sun{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-left: 600px;
+    margin-bottom: 0px;
+
+}
+
+.container {
+    
+    position: relative;
+    height:100px;
+    width: 400px;
+    margin-left: 15px;
+    padding-left: 70%;
+    padding-top: 5%;
+
+
+  }
+  .card-body {
+    background: rgb(255, 126, 14);
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .card-body h1 {
+    margin-bottom: 15px;
+    font-size: 70px;
+  }
+  .card-btn button {
+    border-radius: 5px;
+    color: #262626;
+    padding: 10px 35px;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  button#decrement {
+    background: #f6e58d;
+  }
+  button#decrement:hover {
+    background: #f79f1f;
+    color: #fff;
+  }
+  button#reset {
+    background: #f3a683;
+  }
+  button#reset:hover {
+    background: #ea2027;
+    color: #fff;
+  }
+  button#increment {
+    background: #c4e538;
+  }
+  button#increment:hover {
+    background: #009432;
+    color: #fff;
+  }
